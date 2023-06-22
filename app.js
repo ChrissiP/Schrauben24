@@ -5,7 +5,7 @@ const app = express();
 // Importiere - Schrauben Model
 const schraubenModel = require('./schraubenModel');
 
-mongoose.connect('mongodb+srv://christinapsiloudi:sqd1NCAx4GBqIoZJ@cluster0.ymou45g.mongodb.net/Schrauben24?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://christinapsiloudi:passw@cluster0.ymou45g.mongodb.net/Schrauben24?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
 .then(() => {
   console.log('MongoDB connected...');
 })
